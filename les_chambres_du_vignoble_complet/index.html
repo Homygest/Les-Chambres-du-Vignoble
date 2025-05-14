@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Les Chambres du Vignoble - Réservation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Bienvenue aux Chambres du Vignoble</h1>
+  <p>Réservez votre séjour dans l'une de nos 8 chambres confortables.</p>
+
+  <h2>Choisissez votre chambre</h2>
+  <form action="https://formsubmit.co/TON-EMAIL@gmail.com" method="POST">
+    <label for="name">Nom complet :</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="checkin">Date d'arrivée :</label>
+    <input type="date" id="checkin" name="checkin" required><br>
+
+    <label for="checkout">Date de départ :</label>
+    <input type="date" id="checkout" name="checkout" required><br>
+
+    <label for="room">Type de chambre :</label>
+    <select id="room" name="room">
+      <option value="Chambre 1">Chambre 1 (11 m² - 49€/nuit)</option>
+      <option value="Chambre 2">Chambre 2 (28 m² - 69€/nuit)</option>
+      <option value="Chambre 3">Chambre 3 (45 m² - 89€/nuit)</option>
+    </select><br>
+
+    <button type="submit">Réserver maintenant</button>
+  </form>
+</body>
+</html>
+    
