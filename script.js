@@ -1,0 +1,1 @@
+console.log('Bienvenue aux Chambres du Vignoble');
